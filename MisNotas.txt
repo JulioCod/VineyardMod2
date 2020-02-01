@@ -1,0 +1,16 @@
+Empezar aquí:
+https://cadiboo.github.io/tutorials/1.14.4/forge/1.9-first-block/
+
+
+
+
+
+
+En este paso me salto lo de actualizar los MCP porque es opcional:
+MCP Mappings
+MCP (Mod Coder Pack) Mappings are what Forge uses to deobfuscate minecraft’s code and turn it into something human-readable.
+https://cadiboo.github.io/tutorials/1.14.4/forge/1.0-gradle-configuration/
+
+
+
+
