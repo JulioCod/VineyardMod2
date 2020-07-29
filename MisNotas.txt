@@ -14,3 +14,55 @@ https://cadiboo.github.io/tutorials/1.14.4/forge/1.0-gradle-configuration/
 
 
 
+AÑADIR UN ITEM
+1. ModItemSubscriber
+2. resources/assets/vineyarmod
+    - png en textures.item
+    - json en models.item
+    - nombre en en_us.json
+
+
+{
+  "variants": {
+    "": { "model": "vineyardmod:block/casc_block" }
+
+    }
+}
+
+
+{
+  "variants": {
+    "facing=down": {
+      "model": "vineyardmod:block/casc_block",
+      "x": 180
+    },
+    "facing=up": {
+      "model": "vineyardmod:block/casc_block"
+    },
+    "facing=north": {
+      "model": "vineyardmod:block/casc_block",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "vineyardmod:block/casc_block",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vineyardmod:block/casc_block",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "vineyardmod:block/casc_block",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
+
+
+
+
+
+

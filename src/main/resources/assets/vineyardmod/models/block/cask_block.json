@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "vineyardmod:block/cask_top",
+    "side": "vineyardmod:block/cask_side",
+    "bottom": "vineyardmod:block/cask_bottom"
+  }
+}

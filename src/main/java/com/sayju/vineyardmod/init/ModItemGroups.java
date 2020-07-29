@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 
 public class ModItemGroups {
 
-    public static final ItemGroup MOD_ITEM_GROUP = new ModItemGroup(VineyardMod.MODID, () -> new ItemStack(ModItems.EXAMPLE_ITEM));
+    public static final ItemGroup MOD_ITEM_GROUP = new ModItemGroup(VineyardMod.MODID, () -> new ItemStack(ModItems.example_item));
 
 
     public static class ModItemGroup extends ItemGroup {

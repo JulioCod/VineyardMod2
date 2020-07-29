@@ -23,3 +23,6 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+/src/main/resources/assets/vineyardmod/textures/block/barrel_bottom.png
+/src/main/resources/assets/vineyardmod/textures/block/barrel_side.png
+/src/main/resources/assets/vineyardmod/textures/block/barrel_top.png

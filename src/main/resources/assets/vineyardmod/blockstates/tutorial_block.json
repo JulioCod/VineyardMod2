@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": [
+      { "model": "vineyardmod:block/tutorial_block" }
+    ]
+  }
+}

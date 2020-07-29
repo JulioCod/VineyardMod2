@@ -1,4 +1,10 @@
 {
   "item.vineyardmod.example_item": "Example Item",
-  "itemGroup.vineyardmod": "Example Mod"
+  "item.vineyardmod.example_otom": "Example Otom",
+  "item.vineyardmod.grapes": "Grapes",
+  "block.vineyardmod.tutorial_block": "Tutorial Block",
+  "block.vineyardmod.grapevine": "Grapevine",
+  "block.vineyardmod.casc_block": "Casc",
+  "block.vineyardmod.cask_block": "Cask",
+  "itemGroup.vineyardmod": "Vineyard Mod"
 }
