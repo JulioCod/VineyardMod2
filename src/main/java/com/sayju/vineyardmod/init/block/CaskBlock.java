@@ -13,8 +13,8 @@ import net.minecraft.util.Rotation;
 public class CaskBlock extends Block {
     public static final DirectionProperty PROPERTY_FACING = BlockStateProperties.FACING;
 
-    public CaskBlock(Properties cascProperties) {
-        super(cascProperties);
+    public CaskBlock(Properties caskProperties) {
+        super(caskProperties);
         this.setDefaultState(this.stateContainer.getBaseState().with(PROPERTY_FACING, Direction.NORTH));
 
     }

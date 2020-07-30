@@ -1,11 +1,9 @@
 package com.sayju.vineyardmod.init;
 
 import com.sayju.vineyardmod.VineyardMod;
-import com.sayju.vineyardmod.init.block.CascBlock;
 import com.sayju.vineyardmod.init.block.CaskBlock;
 import com.sayju.vineyardmod.init.block.GrapevineBlock;
 import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.event.RegistryEvent;
@@ -34,10 +32,8 @@ public class ModBlocks {
                         .setRegistryName(VineyardMod.MODID, "tutorial_block"),
                 new CaskBlock(Block.Properties.create(Material.WOOD)
                         .hardnessAndResistance(5).harvestLevel(2).harvestTool(ToolType.PICKAXE))
-                        .setRegistryName(VineyardMod.MODID, "cask_block"),
-                new CascBlock(Block.Properties.create(Material.WOOD)
-                        .hardnessAndResistance(5).harvestLevel(2).harvestTool(ToolType.PICKAXE))
-                        .setRegistryName(VineyardMod.MODID, "casc_block")
+                        .setRegistryName(VineyardMod.MODID, "cask_block")
+
         );
     }
 }

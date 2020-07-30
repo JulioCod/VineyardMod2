@@ -24,7 +24,7 @@ AÑADIR UN ITEM
 
 {
   "variants": {
-    "": { "model": "vineyardmod:block/casc_block" }
+    "": { "model": "vineyardmod:block/cask_block" }
 
     }
 }
@@ -33,28 +33,28 @@ AÑADIR UN ITEM
 {
   "variants": {
     "facing=down": {
-      "model": "vineyardmod:block/casc_block",
+      "model": "vineyardmod:block/cask_block",
       "x": 180
     },
     "facing=up": {
-      "model": "vineyardmod:block/casc_block"
+      "model": "vineyardmod:block/cask_block"
     },
     "facing=north": {
-      "model": "vineyardmod:block/casc_block",
+      "model": "vineyardmod:block/cask_block",
       "x": 90
     },
     "facing=south": {
-      "model": "vineyardmod:block/casc_block",
+      "model": "vineyardmod:block/cask_block",
       "x": 90,
       "y": 180
     },
     "facing=west": {
-      "model": "vineyardmod:block/casc_block",
+      "model": "vineyardmod:block/cask_block",
       "x": 90,
       "y": 270
     },
     "facing=east": {
-      "model": "vineyardmod:block/casc_block",
+      "model": "vineyardmod:block/cask_block",
       "x": 90,
       "y": 90
     }
