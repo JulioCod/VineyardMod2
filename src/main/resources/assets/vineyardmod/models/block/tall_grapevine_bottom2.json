@@ -1,0 +1,6 @@
+{
+    "parent": "block/cross",
+    "textures": {
+        "cross": "vineyardmod:block/tall_grapevine_bottom2"
+    }
+}

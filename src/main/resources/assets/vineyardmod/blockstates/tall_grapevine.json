@@ -1,0 +1,24 @@
+{
+    "multipart": [
+
+      {"when": { "age": 0, "half": "lower" },
+        "apply": {"model": "vineyardmod:block/tall_grapevine_bottom0"}
+      },
+      {"when": { "age": 1, "half": "lower" },
+        "apply": {"model": "vineyardmod:block/tall_grapevine_bottom1"}
+      },
+      {"when": { "age": 2, "half": "lower" },
+        "apply": {"model": "vineyardmod:block/tall_grapevine_bottom2"}
+      },
+      {"when": { "age": 3, "half": "lower" },
+        "apply": {"model": "vineyardmod:block/tall_grapevine_bottom3"}
+      },
+      {"when": { "age": 2, "half": "upper" },
+        "apply": {"model": "vineyardmod:block/tall_grapevine_top2"}
+      },
+      {"when": { "age": 3, "half": "upper" },
+        "apply": {"model": "vineyardmod:block/tall_grapevine_top3"}
+      }
+
+    ]
+}

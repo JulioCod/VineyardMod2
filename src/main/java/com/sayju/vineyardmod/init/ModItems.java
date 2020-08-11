@@ -23,10 +23,8 @@ public class ModItems {
     public static void registerItems(RegistryEvent.Register<Item> event) {
         assert false;
         event.getRegistry().registerAll(
-                new Item(new Item.Properties().group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(VineyardMod.MODID, "example_item"),
-                new Item(new Item.Properties().maxStackSize(32).group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(VineyardMod.MODID, "example_otom"),
                 new Item(new Item.Properties().maxStackSize(32).group(ModItemGroups.MOD_ITEM_GROUP)).setRegistryName(VineyardMod.MODID, "grapes"),
-                new BlockItem(ModBlocks.grapevine, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(ModBlocks.grapevine.getRegistryName()),
+                new BlockItem(ModBlocks.tall_grapevine, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(ModBlocks.tall_grapevine.getRegistryName()),
                 new BlockItem(ModBlocks.cask_block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(ModBlocks.cask_block.getRegistryName())
 
         );

@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "age=0": { "model": "vineyardmod:block/grapevine0" },
-        "age=1": { "model": "vineyardmod:block/grapevine1" },
-        "age=2": { "model": "vineyardmod:block/grapevine2" },
-        "age=3": { "model": "vineyardmod:block/grapevine3" }
-    }
-}
